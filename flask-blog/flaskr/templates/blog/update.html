@@ -7,6 +7,7 @@
 {% block content %}
   <form method="post">
     <label for="title">Title</label>
+{# 当表单还未提交时，显示原 post 数据。如果提交了非法数据，然后需要显示这些非法数据以便于用户修改时，显示 request.form 中的数据。#}
     <input name="title" id="title"
       value="{{ request.form['title'] or post['title'] }}" required>
     <label for="body">Body</label>
