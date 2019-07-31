@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+# 连接数据库
 
 import sqlite3
 import click

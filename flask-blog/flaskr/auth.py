@@ -11,7 +11,7 @@ from flaskr.db import get_db
 
 bp = Blueprint('auth', __name__, url_prefix='/auth')
 
-# 注册视图
+# 注册新用户
 @bp.route('/register', methods=('GET', 'POST'))
 def register():
     if request.method == 'POST':
