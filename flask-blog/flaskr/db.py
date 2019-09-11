@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 # -*- coding:utf-8 -*-
 # 连接数据库
 

@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 # -*- coding:utf-8 -*-
 
 from flask import (
